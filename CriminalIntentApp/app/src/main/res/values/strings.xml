@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CriminalIntentApp</string>
+
+    <string name="crime_title_hint">Enter Crime Title</string>
+    <string name="crime_tilte_lable">Title</string>
+    <string name="crime_details_lable">Details</string>
+    <string name="cirme_solved_lable">Solved</string>
+    <string name="new_crime">New Crime</string>
+    <string name="date_picker_title">Date of Crime:</string>
+
+
+    <string name="action_settings">Settings</string>
+</resources>

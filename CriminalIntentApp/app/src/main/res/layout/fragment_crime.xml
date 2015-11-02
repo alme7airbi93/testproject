@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crime_tilte_lable"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:id="@+id/etCrimetitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/crime_title_hint"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crime_details_lable"
+        android:id="@+id/textView2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCrimeDate"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cirme_solved_lable"
+        android:id="@+id/cbCrimeSolved"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:checked="false" />
+</LinearLayout>
